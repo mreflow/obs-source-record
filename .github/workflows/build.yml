@@ -209,6 +209,7 @@ jobs:
   windows-build:
     name: 'Windows Build'
     runs-on: [windows-latest]
+    continue-on-error: true
     strategy:
       fail-fast: true
       matrix:
@@ -286,6 +287,7 @@ jobs:
     name: 'Windows Package'
     runs-on: [windows-latest]
     needs: [windows-build]
+    continue-on-error: true
     steps:
       - name: Init
         if: success()

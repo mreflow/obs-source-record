@@ -1,9 +1,15 @@
 # Source Record filter for OBS Studio
 
-Plugin for OBS Studio to make sources available to record via a filter
+ # Source Record filter for OBS Studio
+
+Plugin for OBS Studio to make sources available to record via a filter - Now with the ability to pause all recordings simultaneously.
 
 # Download
 
+Latest macOS packages (includes arm64, x86_64, and universal):
+https://github.com/mreflow/pausable-obs-source-record/releases/tag/v0.4.6-pause-sync
+
+Original upstream page:
 https://obsproject.com/forum/resources/source-record.1285/
 
 # Build
@@ -17,5 +23,5 @@ https://obsproject.com/forum/resources/source-record.1285/
     - Verify that you have package with development files for OBS
     - Check out this repository and run `cmake -S . -B build -DBUILD_OUT_OF_TREE=On && cmake --build build`
 
-# Donations
+# Donation To Original Creator
 https://www.paypal.me/exeldro
